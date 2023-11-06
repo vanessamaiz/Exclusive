@@ -1,0 +1,89 @@
+.main-sucesso{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-sucesso02{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    gap: 20px;
+    background: white;
+}
+
+.container-sucesso02 h1{
+    font-size: 30px;
+}
+
+.container-sucesso02 h2{
+    font-size: 20px;
+}
+
+.container-sucesso02 span{
+    color: #20ec55;
+}
+
+
+.container-sucesso03{
+    text-align: center;
+    padding: 30px 0px;
+    background: white;
+}
+
+.container-sucesso03 h3{
+    font-size: 25px;
+    color: rgb(32, 130, 242);
+}
+
+
+.preferencia{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.preferencia h4{
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    width: 350px;
+}
+
+.avaliar-experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.avaliar-experiencia img{
+    width: 35px;
+    height: 35px;
+}
+
+.avaliar-experiencia button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: orangered;
+    color: white;
+    transition: all 0.3 ease-in-out;
+}
+
+.avaliar-experiencia button:hover{
+    background: rgba(255, 68, 0, 0.889);
+}
+
+.avaliar-experiencia button:active{
+    background: var(--azul-marinho);
+}

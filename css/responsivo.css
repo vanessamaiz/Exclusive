@@ -1,0 +1,48 @@
+@media (max-width: 900px){
+    .card-especifico{
+        flex-direction: column;
+        width: 400px;
+    }    
+
+    .card-especifico img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .card-check{
+        width: 400px;
+        height: 500px;
+        
+    }
+    
+    .card-check img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .formas-pagamento{
+        width: 400px;
+    }
+
+    .container-pagamento02{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 400px){
+    .card-especifico{
+        flex-direction: column;
+        width: 300px;
+    }    
+
+    .card-especifico img{
+        width: 200px;
+        height: 200px;
+    }
+
+    
+}
+
+
+
